@@ -294,7 +294,7 @@ input[type="submit"] {
 		height: auto;
 		margin: 2em 0
 	}
-	.service__description{
+	.service > p:first-of-type {
 		margin-bottom: 1em;
 	}
 
