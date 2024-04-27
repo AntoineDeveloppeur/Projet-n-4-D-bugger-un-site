@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
+	
+
+	<!-- Meta pour moteurs de recherche -->
 	<title>Photographe à Bordeaux</title>
-	<meta name="description" content="Capturer vos moments de bonheur avec Nina Carducci, professionnelle expérimentée à Bordeaux">
+	<meta name="description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="language" content="fr-FR">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="True">
+
+
+
+	<!-- Script -->
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 	<script src="https://kit.fontawesome.com/72f3707400.js" crossorigin="anonymous"></script>
+
+	<!-- Twitter card -->
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site" content="@CompteTwitterdeNinaCarducci"/>
+	<meta name="twitter:title" content="Photographe à Bordeaux"/>
+	<meta name="twitter:description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux" />
+	<meta name="twitter:image" content="./assets/images/ninaTwitter.png"/>
+	<meta name="twitter:url" content="https://nina-carducci.github.io/"/>
+
+	<!-- OpenGraph -->
+	<meta property="og:site_name" content="Photographe à Bordeaux"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://nina-carducci.github.io/"/>
+	<meta property="og:title" content="Photographe à Bordeaux" />
+	<meta property="og:description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux" />
+	<meta property="og:image" content=".assetes/images/ninaOpenGraph.png" />
 </head>
 <body>
-<header id="top-header" itemscope itemtype="https://schema.org/ProfessionalService">
-	<h1 class="name" itemprop="funder">Nina Carducci</h1>
-	<div class="nav">   
+<header id="top-header" itemscope itemtype="https://schema.org/ProfessionalService" itemref="service1 adresse-et-plus">
+	<h1 class="name" itemprop="founder">
+	Nina Carducci
+	</h1>
+	<div class="nav">
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -89,36 +118,39 @@
 	</section>
 	<section id="services">
 		<h2 class="title">Mes services</h2>
-		<div class="container">
-			<div class="service" itemscope itemtype="https://schema.org/Offer" itemref="top-header">
-				<h3 itemprop="knowsabout makesOffer">Shooting photo</h3>
-				<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
-				<h4 itemprop="priceSpecification" itemscope iteamtype="UnitPriceSpecification">
-					<meta itemprop="price" content="350">350
-					<meta itemprop="priceCurrency" content="euro">€
+		<div id="service1" class="container">
+			<div class="service" itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+				<h3 itemprop="itemOffered" itemscope itemtype="https://schema.org/Service"><span itemprop="name">Shooting photo</span></h3>
+				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h4 itemprop="priceSpecification" itemscope iteamtype="https://schema.org/UnitPriceSpecification">
+					<span itemprop="price">350</span>
+					<span itemprop="priceCurrency">€</span>
 					/demi journée
 				</h4>
-				<p itemprop="description">Matériel, déplacement inclus</p>
+				<p>Matériel, déplacement inclus</p>
+				<meta itemprop="description" content="Un shooting photo, pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photo sur une demi-journéeL Le Matériel et déplacement sont inclus">
 			</div>
-			<div class="service" itemscope itemtype="https://schema.org/Offer" itemref="top-header">
-				<h3 itemprop="knowsabout makesOffer">Retouches</h3>
-				<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
-				<h4 itemprop="priceSpecification" itemscope iteamtype="UnitPriceSpecification">
-					<meta itemprop="price" content="350">50
-					<meta itemprop="priceCurrency" content="euro">€
+			<div class="service" itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+				<h3 itemprop="itemOffered" itemscope itemtype="https://schema.org/Service"><span itemprop="name">Retouches</span></h3>
+				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publicationsous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<h4 itemprop="priceSpecification" itemscope iteamtype="https://schema.org/UnitPriceSpecification">
+					<span itemprop="price">50</span>
+					<span itemprop="priceCurrency">€</span>
 					/photo
 				</h4>
-				<p itemprop="description">2 AR par photo</p>
+				<p>2 AR par photo</p>
+				<meta itemprop="description" content="Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publicationsous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications. Le prix inclus AR par photo">
 			</div>
-			<div class="service" itemscope itemtype="https://schema.org/Offer" itemref="top-header">
-				<h3 itemprop="knowsabout makesOffer">Album photos</h3>
-				<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
-				<h4 itemprop="priceSpecification" itemscope iteamtype="UnitPriceSpecification">
-					<meta itemprop="price" content="350">400
+			<div class="service" itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+				<h3 itemprop="itemOffered" itemscope itemtype="https://schema.org/Product"><span itemprop="name">Album photos</span></h3>
+				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<h4 itemprop="priceSpecification" itemscope iteamtype="https://schema.org/UnitPriceSpecification">
+					<meta itemprop="price" content="400">400
 					<meta itemprop="priceCurrency" content="euro">€
 					album A4
 				</h4>
-				<p itemprop="description">30 pages recto/verso</p>
+				<p>30 pages recto/verso</p>
+				<meta itemprop="description" content="Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé. Cet album contient 30 pages recto/verso au format A4">
 			</div>
 		</div>
 	</section>
@@ -149,7 +181,7 @@
 	</section>
 </main>
 <footer>
-	<div>
+	<div id="adresse-et-plus">
 		<div>
 			<i class="fa-solid fa-location-dot"></i>
 			<span itemprop="address">68 avenue Alsace-Lorraine, 33200 Bordeaux</span>
