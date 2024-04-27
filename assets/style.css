@@ -194,6 +194,14 @@ body {
 	z-index: 1;
 }
 
+.service strong {
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
