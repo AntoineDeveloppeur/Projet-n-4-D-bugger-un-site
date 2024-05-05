@@ -105,11 +105,11 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #716b36;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
 }
 .item-column {
 	position: relative;
@@ -251,9 +251,11 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
-input[type="submit"] {
+
+#submit {
 	background-color: #BEB45A;
-	padding: .5em 1em
+	padding: .5em 1em;
+	width: 100%;
 }
 
 footer {
@@ -262,7 +264,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
-	background-color: #D8D3A8;;
+	background-color: #D8D3A8;
 }
 
 footer > :first-child {
