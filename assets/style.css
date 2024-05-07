@@ -267,16 +267,16 @@ footer {
 	background-color: #D8D3A8;
 }
 
-footer > :first-child {
+#adresse-et-plus {
 	margin-top: 1em;
 	margin-bottom: 2em;
 }
 
-footer > div > div {
+.informations-locales {
 	margin-top: 1em;
 }
 
-footer > div > div > i {
+#horloge {
 	margin-right: 0.5em;
 }
 

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap_review.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	
 
 	<!-- Meta pour moteurs de recherche -->
-	<title>Photographe à Bordeaux</title>
+	<title>Photographe professionnelle à Bordeaux</title>
 	<meta name="description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux">
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,27 +21,28 @@
 
 
 	<!-- Script -->
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/maugallery.min.js"></script>
+	<script src="./assets/scripts.min.js"></script>
 	<script src="https://kit.fontawesome.com/72f3707400.js" crossorigin="anonymous"></script>
 
 	<!-- Twitter card -->
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:site" content="@CompteTwitterdeNinaCarducci"/>
-	<meta name="twitter:title" content="Photographe à Bordeaux"/>
+	<meta name="twitter:title" content="Photographe professionnelle à Bordeaux"/>
 	<meta name="twitter:description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux" />
 	<meta name="twitter:image" content="./assets/images/ninaTwitter.webp"/>
 	<meta name="twitter:url" content="https://nina-carducci.github.io/"/>
 
 	<!-- OpenGraph -->
-	<meta property="og:site_name" content="Photographe à Bordeaux"/>
+	<meta property="og:site_name" content="Photographe professionnelle à Bordeaux"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://nina-carducci.github.io/"/>
-	<meta property="og:title" content="Photographe à Bordeaux"/>
+	<meta property="og:title" content="Photographe professionnelle à Bordeaux"/>
 	<meta property="og:description" content="Capturer vos moments de bonheur avec Nina Carducci, Photographe professionnelle expérimentée à Bordeaux" />
 	<meta property="og:image" content=".assetes/images/ninaOpenGraph.webp" />
+
 </head>
 <body>
 <header id="top-header" itemscope itemtype="https://schema.org/ProfessionalService" itemref="service1 adresse-et-plus">
@@ -187,7 +188,7 @@
 </main>
 <footer>
 	<div id="adresse-et-plus">
-		<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+		<div class="informations-locales" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 			<i class="fa-solid fa-location-dot"></i>
 			<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
 			, 
@@ -196,12 +197,12 @@
 			<span itemprop="addressLocality">Bordeaux</span>
 			<meta itemprop="addressCountry" content="FR">
 		</div>
-		<div>
+		<div class="informations-locales">
 			<i class="fa-solid fa-phone"></i>
 			<span itemprop="telephone">05 56 67 78 89</span>
 		</div>
-		<div>
-			<i class="fa-solid fa-clock"></i>
+		<div class="informations-locales">
+			<i id="horloge" class="fa-solid fa-clock"></i>
 			<span>Disponible du <time itemprop="openinghours" datetime="Lundi-Vendredi 10h-19h">lundi au vendredi de 10h à 19h</time></span>
 		</div>
 	</div>
